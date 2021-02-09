@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+        
+        h1 {
+            color: blue;
+            font-size: 3rem;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Caveat', cursive;
+        }
+        
+        p {
+            color: green
+        }
+        
+        .reditem {
+            color: red
+        }
+        
+        p.reditem {
+            font-weight: bold;
+            font-size: 14pt;
+        }
+        
+        #mainTitle {
+            color: #1c157e;
+        }
+        table {
+            border-collapse:collapse;
+        }
+        table,th,td {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 class="reditem" id="mainTitle">Title</h1>
+        </header>
+        <main>
+            <p class="reditem">Some text</p>
+            <p>Some text</p>
+            <p class="reditem">Some text</p>
+            <p>Some text</p>
+            <ul>
+                <li>item</li>
+                <li>item
+                    <ul>
+                        <li>item 2</li>
+                        <li>item 2</li>
+                        <li>item 2</li>
+                    </ul>
+                </li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <ol>
+                <li>item</li>
+                <li>item
+                    <ol>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                </li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>h</th>
+                        <th>h</th>
+                        <th>h</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>h</th>
+                        <th>h</th>
+                        <th>h</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+        </main>
+        <footer>
+            <p>&copy; Copyleft )</p>
+        </footer>
+    </div>
+</body>
+
+</html>
