@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocks3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+    main, header, footer, article {
+        overflow:hidden;
+    }
+    #wrapper {
+        width:90%;
+        margin:0 auto;
+    }
+    main div {
+        border:solid 1px #aaa;
+        padding:1em;
+    }
+    .row {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .item {
+        flex:1 1 200px;
+    }
+    #sb2 {
+        flex: 0 0 200px;
+    }
+    #sb1 {
+        order: -1;
+        margin:1rem;
+    }
+    #sb3 {
+        margin:1rem;
+    }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Block3 example</h1>
+        </header>
+        <main>
+            <div id="outer_block" class="row">
+                <div class="item" id="content">text1<br>text</div>
+                <div class="item" id="sb1">text2</div>
+                <div class="item" id="sb2">text3</div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Copyleft )</p>
+        </footer>
+    </div>
+</body>
+</html>
