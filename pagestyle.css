@@ -1,0 +1,25 @@
+header {
+    background-color: #350200;
+}
+
+footer {
+    background-color: #1b0000;
+    color: #eee;
+}
+
+#logo {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(77, 77, 77, 0.95);
+}
+
+nav ol li {}
+
+nav ol li a {
+    color: white;
+    border-bottom: solid 1px #933;
+}
+
+nav ol li a:hover {
+    box-shadow: 2px 2px 6px rgba(21, 21, 21, 0.95);
+    top: -2px;
+}
